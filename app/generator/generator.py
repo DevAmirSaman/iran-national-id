@@ -33,8 +33,3 @@ def generate_national_id(
         ids.append(national_id + str(control_digit))
 
     return ids
-
-
-if __name__ == '__main__':
-    city_codes = tuple(get_codes_for_city('بیرجند'))
-    print(generate_national_id(city_codes ,quantity=10))
