@@ -1,2 +1,5 @@
 .DS_Store
 .idea/
+scraper/
+bot/
+__pycache__/
