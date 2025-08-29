@@ -1,5 +1,3 @@
-from sys import prefix
-
 # Iran National ID
 A lightweight Python utility for generating and validating Iranian national IDs with correct control digits.
 Includes a Telegram bot: <a href="https://t.me/IranNational_ID_BOT">@IranNational_ID_BOT</a> for quick ID generation and validation without writing any code.
