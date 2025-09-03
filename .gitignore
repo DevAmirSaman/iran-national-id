@@ -3,3 +3,4 @@
 scraper/
 __pycache__/
 .env
+bot/
