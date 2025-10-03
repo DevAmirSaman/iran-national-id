@@ -1,11 +1,9 @@
 # Iran National ID
 A lightweight Python utility for generating and validating Iranian national IDs with correct control digits.
-Includes a Telegram bot: <a href="https://t.me/IranNational_ID_BOT">@IranNational_ID_BOT</a> for quick ID generation and validation without writing any code.
 
 ## Features
 - Generate valid national IDs (random or with custom city-code prefixes)
 - Validate existing national IDs for control-digit correctness
-- Telegram bot for instant use
 
 ## How the algorithm works
 The utility implements the official control-digit checksum used in Iranian national IDs.
@@ -47,10 +45,6 @@ from app.validator.validator import is_national_id_valid
 national_id = generate_national_id(quantity=1)[0]
 print(is_national_id_valid(national_id)) # True
 ```
-
-**Use the Telegram Bot**</br>
-No need to write code! Just open the bot:</br>
-👉 <a href="https://t.me/IranNational_ID_BOT">@IranNational_ID_BOT</a>
 
 ## License
 MIT License – feel free to use it in your own projects.
